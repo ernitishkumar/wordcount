@@ -6,7 +6,7 @@
 	<groupId>com.nitish.freecharge</groupId>
 	<artifactId>wordcount</artifactId>
 	<packaging>war</packaging>
-	<version>1.2-SNAPSHOT</version>
+	<version>2.0</version>
 	<name>wordcount</name>
 
 	<build>
@@ -127,6 +127,11 @@
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-servlet</artifactId>
 			<version>9.3.8.v20160314</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
 		</dependency>
 	</dependencies>
 	<properties>
