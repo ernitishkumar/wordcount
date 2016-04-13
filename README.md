@@ -14,7 +14,7 @@ Please follow the below steps to get the project started.
 6. Open GlobalResources.java file change the value of FILE_PATH with the text file containing valid english words to be searched for words.
 7. navigate back to wordcount folder
 8. Run following command "mvn compile"
-9. Then run "mvn clean package" . This command will package the project into a jar file with name wordcount-jar-with-dependencies.jar
+9. Then run "mvn clean package" . This command will package the project into a jar file with name nitishsAwesomeProject.jar
    in target forlder of the current directory.
 
 <h2> Running the Project <h2>
@@ -35,7 +35,7 @@ There are two ways to run our app.
 <h3>2. Steps for running the app through jar</h3>
 1. Navigate to wordcount folder
 2. go to target folder inside wordcount folder.
-3. run the following command java -jar wordcount-jar-with-dependencies.jar
+3. run the following command java -jar nitishsAwesomeProject.jar
 4. this will start the embedded jetty server on 9999 port number.
 5. Now open any browser on same machine and access the following url : http://localhost:9999/wordcount/count?query="word to be searched"
 6. Ideally this url should return the count of word in json format but due to packaging issue execptions comes at the runtime
