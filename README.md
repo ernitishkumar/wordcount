@@ -29,17 +29,17 @@ There are two ways to run our app.
 2. execute following maven command "mvn jetty:run"
    This command will start the jetty server of our app and deploy our jersey based webapp onto it.
 3. Now open any browser on same machine and access the following url : http://localhost:9999/wordcount/
-4 Home page will open with an input box for the word to be search and click get count button. 
+
+4. Home page will open with an input box for the word to be search and click get count button. 
 5. On next page you will get the count of the provided word in json format.
+6. Subsequently you can change query="with any random word" and hit enter to get the count.
 
 <h3>2. Steps for running the app through jar</h3>
 1. Navigate to wordcount folder
-2. go to target folder inside wordcount folder.
-3. run the following command java -jar nitishsAwesomeProject.jar
-4. this will start the embedded jetty server on 9999 port number.
-5. Now open any browser on same machine and access the following url : http://localhost:9999/wordcount/count?query="word to be searched"
-6. Ideally this url should return the count of word in json format but due to packaging issue execptions comes at the runtime
-  and we are not able to see the output.
+2. run the following command java -jar target\nitishsAwesomeProject.jar
+3. This command will start the embedded jetty server on 9999 port number.
+4. Now open any browser on same machine and access the following url : http://localhost:9999/wordcount/count?query="word to be searched"
+5. This request will return the count of the word in json format.
 
 
 
