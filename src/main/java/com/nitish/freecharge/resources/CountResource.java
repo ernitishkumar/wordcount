@@ -48,6 +48,7 @@ public class CountResource {
 		}
 		if(count!=null){
 			return Response.status(Status.OK).entity(count).build();
+			
 		}else{
 			return Response.status(Status.BAD_REQUEST).entity(error).build();
 		}
