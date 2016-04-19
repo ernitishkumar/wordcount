@@ -14,8 +14,6 @@ public class App {
         ServletHolder jerseyServlet = context.addServlet(org.glassfish.jersey.servlet.ServletContainer.class, "/wordcount/*");
         jerseyServlet.setInitOrder(1);
         jerseyServlet.setInitParameter("jersey.config.server.provider.packages","com.nitish.freecharge.resources");
-        /*jerseyServlet.setInitParameter("jersey.config.server.provider.classnames",
-                "org.glassfish.jersey.moxy.json.MoxyJsonFeature");*/
         try {
 			System.out.println("Starting the server..");
 			server.start();
