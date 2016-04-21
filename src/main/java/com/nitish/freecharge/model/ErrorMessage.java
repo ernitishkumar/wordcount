@@ -1,12 +1,11 @@
 package com.nitish.freecharge.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
 /**
  * Model Class (used to store count value for a given word)
  */
 @XmlRootElement
-public class Error {
+public class ErrorMessage {
 	
 	/** The count variable is used for storing error messages */
 	private String message;
@@ -31,14 +30,14 @@ public class Error {
 	 * Initializes a new Error object with error message passed in param
 	 * @param message
 	 */
-	public Error(String message) {
+	public ErrorMessage(String message) {
 		this.message = message;
 	}
 
 	/**
 	 * Initializes a new Error object with no error message
 	 */
-	public Error() {
+	public ErrorMessage() {
 	}
 	
 }
